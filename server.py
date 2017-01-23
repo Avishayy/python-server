@@ -10,3 +10,6 @@ while true:
 
 client_msg = client_socket.recv(1024)
 client_socket.send(client_msg)
+
+client_socket.close()
+server_socket.close()
